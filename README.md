@@ -29,6 +29,7 @@ tornet --interval <seconds> --count <number>
 
 - `--interval` (optional): Time in seconds between IP changes (default is 60 seconds).
 - `--count` (optional): Number of times to change the IP (default is 10 times). If set to 0, the IP will be changed indefinitely.
+- `--stop` (optional): Stop all Tor services and TorNet processes and exit.
 - `--ip` (optional): Display the current IP address and exit.
 - `--auto-fix` (optional): Automatically fix issues (install/upgrade packages).
 - `--help`: Show the help message and exit.
@@ -54,6 +55,12 @@ Change the IP address every 60 seconds indefinitely:
 
 ```bash
 tornet --interval 60 --count 0
+```
+
+Stop all Tor services and TorNet processes:
+
+```bash
+tornet --stop
 ```
 
 Display the current IP address:
@@ -114,7 +121,7 @@ If you encounter any issues while using TorNet, here are a few steps you can tak
 
 ## Contributing
 
-We welcome contributions from the community! If you have an idea for a new feature or have found a bug, please open an issue on our [GitHub repository](https://github.com/ByteBreac/tornet).
+We welcome contributions from the community! If you have an idea for a new feature or have found a bug, please open an issue on our [GitHub repository](https://github.com/ByteBreach/tornet).
 
 ## License
 
