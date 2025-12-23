@@ -285,6 +285,18 @@ Output includes:
 - Package manager
 - Config/log file locations
 
+## Configuring Your Browser to Use TorNet
+
+To ensure your browser uses the Tor network for anonymity, you need to configure it to use TorNet's proxy settings:
+
+1. **Firefox**:
+    - Go to `Preferences` > `General` > `Network Settings`.
+    - Select `Manual proxy configuration`.
+    - Enter `127.0.0.1` for `SOCKS Host` and `9050` for the `Port` (or your specified values if different).
+    - Ensure the checkbox `Proxy DNS when using SOCKS v5` is checked.
+    - Click `OK`.
+<img src="https://bytebreach.github.io/img/port.png" alt="Firefox Configuration Example" />
+
 ## Disclaimer
 
 **TorNet is intended for educational and privacy purposes only.**
