@@ -43,7 +43,7 @@
 ## 🚀 Installation
 
 ```bash
-pip install tornet
+pip install tornet==2.0.1
 ```
 
 ## 🏁 Quick Start
