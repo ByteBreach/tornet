@@ -390,6 +390,5 @@ Thanks to the Tor project developers.
 <div align="center">
 Made with ❤️ for the privacy-conscious community
 </div>
-```
 
 ---
