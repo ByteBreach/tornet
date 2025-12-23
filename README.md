@@ -324,6 +324,15 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 - GitHub: [@ByteBreach](https://github.com/ByteBreach)
 
+### *Thanks to all contributors*:
+
+<table>
+  <tr align="center">
+    <td><a href="https://github.com/mr-fidal"><img src="https://avatars.githubusercontent.com/u/154952367?s=100" /><br /><sub><b>Mr-Fidal</b></sub></a></td>
+    <td><a href="https://github.com/GH05T-HUNTER5"><img src="https://avatars.githubusercontent.com/u/108191615?s=100" /><br /><sub><b>GH05T-HUNTER5</b></sub></a></td>
+  </tr>
+<table>
+
 ## 🌟 Support
 
 If you find this project useful, please consider:
