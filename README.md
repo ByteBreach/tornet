@@ -27,9 +27,6 @@
 - [Commands](#-commands)
 - [Configuration](#-configuration)
 - [Country Selection](#-country-selection)
-- [Advanced Usage](#-advanced-usage)
-- [Troubleshooting](#-troubleshooting)
-- [Disclaimer](#-disclaimer)
 
 ## ✨ Features
 
