@@ -1,10 +1,3 @@
-
-
-
-
-
-
-
 # TorNet v2.0.1
 
 <div align="center">
@@ -329,7 +322,6 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 ## 👤 Author
 
-**Fidal**
 - GitHub: [@ByteBreach](https://github.com/ByteBreach)
 
 ## 🌟 Support
