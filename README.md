@@ -20,7 +20,7 @@
 - **Protection from Tracking** : With your IP address changing frequently, tracking services and advertisers will find it more challenging to build a profile on you.
 - **Peace of Mind**: Knowing that your IP address is regularly changed can give you confidence in your online privacy and security.
 
-## 📋 Table of Contents
+## Table of Contents
 - [Features](#-features)
 - [Installation](#-installation)
 - [Quick Start](#-quick-start)
@@ -28,25 +28,25 @@
 - [Configuration](#-configuration)
 - [Country Selection](#-country-selection)
 
-## ✨ Features
+## Features
 
-- 🔄 **Automatic IP Rotation** - Change your IP address at regular intervals
-- 🌍 **Country Selection** - Choose exit nodes from specific countries
-- 🛡️ **Kill Switch** - Block all non-Tor traffic for maximum privacy
-- 📊 **DNS Leak Test** - Verify your anonymity setup
-- 🔧 **Auto-Fix** - Automatic dependency installation
-- 📈 **Status Monitoring** - Real-time system status display
-- 📝 **Logging** - Detailed log file with follow capability
-- ⚙️ **Configurable** - Custom configuration via YAML/JSON files
-- 🕐 **Scheduling** - Flexible scheduling options (seconds, minutes, hours, days)
+- **Automatic IP Rotation** - Change your IP address at regular intervals
+- **Country Selection** - Choose exit nodes from specific countries
+- **Kill Switch** - Block all non-Tor traffic for maximum privacy
+- **DNS Leak Test** - Verify your anonymity setup
+- **Auto-Fix** - Automatic dependency installation
+- **Status Monitoring** - Real-time system status display
+- **Logging** - Detailed log file with follow capability
+- **Configurable** - Custom configuration via YAML/JSON files
+- **Scheduling** - Flexible scheduling options (seconds, minutes, hours, days)
 
-## 🚀 Installation
+## Installation
 
 ```bash
 pip install tornet==2.0.1
 ```
 
-## 🏁 Quick Start
+## Quick Start
 
 ### Basic Usage
 ```bash
@@ -75,7 +75,7 @@ tornet --country de --interval 120
 tornet --country auto --interval 60
 ```
 
-## 📖 Commands
+## Commands
 
 ### Basic Commands
 | Command | Description | Example |
@@ -112,7 +112,7 @@ tornet --country auto --interval 60
 - `60` - Exactly 60 seconds
 - `30-120` - Random between 30 and 120 seconds
 
-## 🌍 Country Selection
+## Country Selection
 
 ### List Available Countries
 ```bash
@@ -143,7 +143,7 @@ tornet --country auto --interval 60
 tornet --restore-default
 ```
 
-## ⚙️ Configuration
+## Configuration
 
 ### Configuration File
 TorNet uses `~/.tornet/config.yml` by default. Create a custom configuration:
@@ -177,7 +177,7 @@ advanced:
 tornet --config ~/.tornet/custom.yml --interval 120
 ```
 
-## 🔧 Advanced Usage
+## Advanced Usage
 
 ### Kill Switch
 ```bash
@@ -224,7 +224,7 @@ tornet --country de --schedule 1h
 tornet --config custom.yml --json --interval 30 --count 100
 ```
 
-## 🛠️ Troubleshooting
+## Troubleshooting
 
 ### Common Issues
 
@@ -285,7 +285,7 @@ Output includes:
 - Package manager
 - Config/log file locations
 
-## ⚠️ Disclaimer
+## Disclaimer
 
 **TorNet is intended for educational and privacy purposes only.**
 
@@ -309,15 +309,15 @@ Output includes:
 - Some features require root/sudo privileges
 - Not all countries may have reliable Tor exit nodes
 
-## 🤝 Contributing
+## Contributing
 
 Contributions are welcome! Please feel free to submit a Pull Request.
 
-## 📄 License
+## License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
 
-## 👤 Author
+##  Author
 
 - GitHub: [@ByteBreach](https://github.com/ByteBreach)
 
@@ -330,13 +330,13 @@ This project is licensed under the MIT License - see the LICENSE file for detail
   </tr>
 <table>
 
-## 🌟 Support
+##  Support
 
 If you find this project useful, please consider:
-- Giving it a star ⭐
-- Reporting issues 🐛
-- Suggesting new features 💡
-- Sharing with others 🔄
+- Giving it a star 
+- Reporting issues 
+- Suggesting new features 
+- Sharing with others 
 
 ---
 
