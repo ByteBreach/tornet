@@ -5,11 +5,12 @@
 ![TorNet Banner](https://img.shields.io/badge/TorNet-2.0.2-blue)
 ![Python](https://img.shields.io/badge/Python-3.6%2B-green)
 ![License](https://img.shields.io/badge/License-MIT-yellow)
-![Platform](https://img.shields.io/badge/Platform-Linux-lightgrey)
+![Platform](https://img.shields.io/badge/Platform-Windows%20EXE%20%7C%20Linux%20%7C%20Android%20APP-blue)
 
-**Automate IP address changes using Tor network with advanced features**
+**Automate IP address changes using the Tor network with advanced privacy features**
 
-TorNet is a Python package that automates IP address changes using Tor. It is a top tool for securing your networks by frequently changing your IP address, making it difficult for trackers to pinpoint your location.
+TorNet is a privacy-focused tool that automates IP address rotation using Tor.  
+It is designed to improve anonymity, security, and resistance to tracking across multiple platforms.
 
 </div>
 
@@ -17,40 +18,78 @@ TorNet is a Python package that automates IP address changes using Tor. It is a 
 
 ## Benefits
 
-- **Enhanced Privacy**: By regularly changing your IP address, TorNet makes it much harder for websites and trackers to monitor your online activity.
-- **Increased Security**: Frequent IP changes can help protect you from targeted attacks and make it more difficult for malicious actors to track your online presence.
-- **Anonymity**: Using Tor, TorNet helps you maintain a high level of anonymity while browsing the internet.
-- **Ease of Use**: TorNet is designed to be simple and easy to use, whether you prefer command-line tools or integrating it directly into your Python scripts.
-- **Protection from Tracking**: With your IP address changing frequently, tracking services and advertisers will find it more challenging to build a profile on you.
-- **Peace of Mind**: Knowing that your IP address is regularly changed can give you confidence in your online privacy and security.
+- **Enhanced Privacy** – Frequent IP changes make tracking difficult
+- **Increased Security** – Reduces exposure to targeted attacks
+- **Anonymity** – Routes traffic through the Tor network
+- **Ease of Use** – Simple CLI and future GUI apps
+- **Anti-Tracking** – Limits profiling by advertisers and trackers
+- **Cross-Platform Vision** – Desktop and mobile support
 
 ---
 
 ## Table of Contents
+
 - [Features](#features)
+- [Platform Support](#platform-support)
 - [Installation](#installation)
 - [Quick Start](#quick-start)
 - [Commands](#commands)
 - [Configuration](#configuration)
 - [Country Selection](#country-selection)
+- [Troubleshooting](#troubleshooting)
+- [Contributing](#contributing)
+- [License](#license)
 
 ---
 
 ## Features
 
-- **Automatic IP Rotation** - Change your IP address at regular intervals
-- **Country Selection** - Choose exit nodes from specific countries
-- **Kill Switch** - Block all non-Tor traffic for maximum privacy
-- **DNS Leak Test** - Verify your anonymity setup
-- **Auto-Fix** - Automatic dependency installation
-- **Status Monitoring** - Real-time system status display
-- **Logging** - Detailed log file with follow capability
-- **Configurable** - Custom configuration via YAML/JSON files
-- **Scheduling** - Flexible scheduling options (seconds, minutes, hours, days)
+- Automatic IP rotation
+- Country-based Tor exit nodes
+- Kill switch (platform-dependent)
+- DNS leak testing
+- Auto dependency fixing
+- Status monitoring
+- Logging & log following
+- YAML / JSON configuration
+- Scheduled IP rotation
+
+---
+
+## Platform Support
+
+TorNet is designed to be a **real application**, not just a script.
+
+### Supported Platforms
+
+- **Linux** – Native support (primary & most stable)
+- **Windows** – Standalone **`.exe` application**
+- **Android** – Dedicated **Android app (APK)**
+
+### Platform Notes
+
+- **Linux**
+  - Full feature support
+  - CLI-based
+  - Recommended platform
+
+- **Windows**
+  - Distributed as a compiled **EXE**
+  - No Python installation required
+  - Uses system or bundled Tor
+
+- **Android**
+  - Distributed as an **APK**
+  - Designed for mobile privacy
+  - Uses embedded Tor services
+
+> ⚠️ Some features (like kill switch) may vary due to OS restrictions.
 
 ---
 
 ## Installation
+
+### Linux
 
 ```bash
 pip install tornet==2.0.2
