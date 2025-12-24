@@ -36,7 +36,7 @@ No permission is required — just contribute responsibly.
 
 ---
 
-## 🛠 How to Contribute
+## How to Contribute
 
 1. Fork the repository
 2. Make your changes
@@ -57,7 +57,7 @@ All issues, fixes, and ideas are welcome.
 
 ---
 
-## 📚 Documentation
+## Documentation
 
 You can contribute without writing code:
 
@@ -69,7 +69,7 @@ Documentation contributions matter.
 
 ---
 
-## 📜 License
+## License
 
 By contributing, you agree that your work will be released under the **MIT License**.
 
