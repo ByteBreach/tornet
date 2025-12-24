@@ -1,0 +1,12 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "tornet"
+version = "2.0.1"
+description = "Automate IP address changes using Tor"
+authors = [{ name = "mrfidal" }]
+license = { text = "MIT" }
+readme = "README.md"
+requires-python = ">=3.6"
