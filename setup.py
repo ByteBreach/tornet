@@ -13,7 +13,7 @@ else:
 
 setup(
     name="tornet",
-    version="2.0.1",
+    version="2.0.2",
     author="ByteBreach",
     author_email="mrfidal@proton.me",
     description="Advanced Tor Network Controller for IP Rotation and Anonymity",
