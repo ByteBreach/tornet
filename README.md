@@ -16,6 +16,16 @@ It is designed to improve anonymity, security, and resistance to tracking across
 
 ---
 
+## Open Collaboration Notice
+
+**TorNet is a fully open and community-driven project.**
+
+Everyone is **free to collaborate, edit, modify, fix issues, add features, and share this project** without restriction, in accordance with the MIT License.
+
+No permission is required — contributions from **anyone** are welcome.
+
+---
+
 ## Benefits
 
 - **Enhanced Privacy** – Frequent IP changes make tracking difficult
@@ -36,6 +46,7 @@ It is designed to improve anonymity, security, and resistance to tracking across
 - [Commands](#commands)
 - [Configuration](#configuration)
 - [Country Selection](#country-selection)
+- [Roadmap](#roadmap)
 - [Troubleshooting](#troubleshooting)
 - [Contributing](#contributing)
 - [License](#license)
@@ -83,7 +94,7 @@ TorNet is designed to be a **real application**, not just a script.
   - Designed for mobile privacy
   - Uses embedded Tor services
 
-> ⚠️ Some features (like kill switch) may vary due to OS restrictions.
+> ⚠️ Some features (such as kill switch) may vary due to OS restrictions.
 
 ---
 
