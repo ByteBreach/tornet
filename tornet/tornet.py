@@ -22,7 +22,7 @@ from pathlib import Path
 from .banner import print_banner
 
 TOOL_NAME = "tornet"
-VERSION = "2.0.1"
+VERSION = "2.0.2"
 CONFIG_FILE = os.path.expanduser("~/.tornet/config.yml")
 LOG_FILE = os.path.expanduser("~/.tornet/tornet.log")
 TORRC_FILE = os.path.expanduser("~/.tornet/torrc.custom")
