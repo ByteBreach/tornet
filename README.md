@@ -2,7 +2,7 @@
 
 <div align="center">
 
-![TorNet Banner](https://img.shields.io/badge/TorNet-2.0.1-blue)
+![TorNet Banner](https://img.shields.io/badge/TorNet-2.0.2-blue)
 ![Python](https://img.shields.io/badge/Python-3.6%2B-green)
 ![License](https://img.shields.io/badge/License-MIT-yellow)
 ![Platform](https://img.shields.io/badge/Platform-Linux-lightgrey)
@@ -53,7 +53,7 @@ TorNet is a Python package that automates IP address changes using Tor. It is a 
 ## Installation
 
 ```bash
-pip install tornet==2.0.1
+pip install tornet==2.0.2
 ````
 
 ---
